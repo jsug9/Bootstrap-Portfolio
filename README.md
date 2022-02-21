@@ -15,12 +15,13 @@
 
 For a live demo of the Portfolio [click here](https://jsug9.github.io/Bootstrap-Portfolio/)
 
-## Author
+## Authors
 
 👤 **Augusto Galindo**
 
 - GitHub: [@jsug9](https://github.com/jsug9)
 - LinkedIn: [Augusto Galindo](https://www.linkedin.com/in/augustogalindo/)
+
 
 👤 **Catherine Kemigabo**
 
