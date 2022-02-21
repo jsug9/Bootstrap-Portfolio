@@ -2,7 +2,7 @@
 
 # Bootstrap Portfolio
 
-> In this project We build a professional portfolio, using bootstrap.
+> In this project, we build a professional portfolio using bootstrap.
 
 
 ## Built With
