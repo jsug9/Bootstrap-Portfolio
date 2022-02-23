@@ -5,3 +5,10 @@
 body {
   font-family: Poppins, sans-serif;
 }
+
+.headline {
+  background-image: url("images/Header\ bg@3x.svg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 98%;
+}
