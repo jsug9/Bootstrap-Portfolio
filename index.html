@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap Portfolio</title>
   </head>
 
   <body class="bg-light">
+    <!--Introduction-->
     <header class="container-fluid bg-white">
       <div class="container-sm">
         <nav class="navbar navbar-expand-md navbar-light" style="background-color: #ffffff;">
-          <a class="navbar-brand" href="#">Logo</a>
+          <a class="navbar-brand fw-bold text-primary" href="#">Logo</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Portfolio</a>
               </li>
@@ -63,90 +64,102 @@
       </div>
     </div>
     </div>
-
+    <!--Projects-->
     <div class="container-md work-section">
       <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!--First-card-->
         <div class="col">
           <div class="card h-100">
             <img src="Resources/Snapshoot-Portfolio/snapshoot-portfolio1.svg" class="card-img-top p-3" alt="works card image">
             <div class="card-body">
-              <h5 class="card-title">Tonic</h5>
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><b>CANOPY</b></li>
-                <li class="list-group-item">Back End Dev</li>
-                <li class="list-group-item">2015</li>
+              <h4 class="card-title fw-bold fs-1">Tonic</h4>
+              <ul class="list-group list-group-horizontal ml-n3">
+                <li class="list-unstyled"><b>CANOPY</b></li>
+                <li class="list-unstyled ps-4">Back End Dev</li>
+                <li class="list-unstyled ps-4">2015</li>
               </ul>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-              <div class="container-fluid">
-                <span class="badge rounded-pill bg-primary">html</span>
-                <span class="badge rounded-pill bg-primary">css</span>
-                <span class="badge rounded-pill bg-primary">javascript</span>
+              <div>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-unstyled"> <span class="badge rounded-pill bg-primary">html</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">css</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">javascript</span></li>
+                </ul>
               </div>
               <a href="#" class="btn btn-primary mt-3">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--Second-card-->
         <div class="col">
           <div class="card h-100">
             <img src="Resources/Snapshoot-Portfolio/snapshoot-portfolio2.svg" class="card-img-top p-3" alt="works card image">
             <div class="card-body">
-              <h5 class="card-title">Multi-Post Stories</h5>
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><b>FACEBOOK</b></li>
-                <li class="list-group-item">Full Stack Dev</li>
-                <li class="list-group-item">2015</li>
+              <h4 class="card-title fw-bold fs-1">Multi-Post Stories</h4>
+              <ul class="list-group list-group-horizontal ml-n3">
+                <li class="list-unstyled"><b>FACEBOOK</b></li>
+                <li class="list-unstyled ps-4">Full Stack Dev</li>
+                <li class="list-unstyled ps-4">2015</li>
               </ul>
               <p class="card-text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-              <div class="container-fluid">
-                <span class="badge rounded-pill bg-primary">html</span>
-                <span class="badge rounded-pill bg-primary">css</span>
-                <span class="badge rounded-pill bg-primary">javascript</span>
-                <span class="badge rounded-pill bg-primary">Ruby on rails</span>
+              <div>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-unstyled"> <span class="badge rounded-pill bg-primary">html</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">css</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">javascript</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">Ruby on rails</span></li>
+                </ul>
               </div>
               <a href="#" class="btn btn-primary mt-3">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--Third-card-->
         <div class="col">
           <div class="card h-100">
             <img src="Resources/Snapshoot-Portfolio/snapshoot-portfolio3.svg" class="card-img-top p-3" alt="works card image">
             <div class="card-body">
-              <h5 class="card-title">Facebook 360</h5>
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><b>FACEBOOK</b></li>
-                <li class="list-group-item">Full Stack Dev</li>
-                <li class="list-group-item">2015</li>
+              <h4 class="card-title fw-bold fs-1">Facebook 360</h4>
+             <ul class="list-group list-group-horizontal ml-n3">
+                <li class="list-unstyled"><b>FACEBOOK</b></li>
+                <li class="list-unstyled ps-4">Full Stack Dev</li>
+                <li class="list-unstyled ps-4">2015</li>
               </ul>
               <p class="card-text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-              <div class="container-fluid">
-                <span class="badge rounded-pill bg-primary">html</span>
-                <span class="badge rounded-pill bg-primary">Ruby on rails</span>
-                <span class="badge rounded-pill bg-primary">css</span>
-                <span class="badge rounded-pill bg-primary">javascript</span>
+              <div>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-unstyled"> <span class="badge rounded-pill bg-primary">html</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">Ruby on rails</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">css</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">javascript</span></li>
+                </ul>
               </div>
               <a href="#" class="btn btn-primary mt-3">See Project</a>
             </div>
           </div>
         </div>
 
+        <!--Fourth-card-->
         <div class="col">
           <div class="card h-100">
             <img src="Resources/Snapshoot-Portfolio/snapshoot-portfolio4.svg" class="card-img-top p-3" alt="works card image">
             <div class="card-body">
-              <h5 class="card-title">Uber Navigation</h5>
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item"><b>UBER</b></li>
-                <li class="list-group-item">Lead Developer</li>
-                <li class="list-group-item">2018</li>
+              <h4 class="card-title fw-bold fs-1">Uber Navigation</h4>
+              <ul class="list-group list-group-horizontal ml-n3">
+                <li class="list-unstyled"><b>UBER</b></li>
+                <li class="list-unstyled ps-4">Lead Developer</li>
+                <li class="list-unstyled ps-4">2018</li>
               </ul>
               <p class="card-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-              <div class="container-fluid">
-                <span class="badge rounded-pill bg-primary">html</span>
-                <span class="badge rounded-pill bg-primary">Ruby on rails</span>
-                <span class="badge rounded-pill bg-primary">css</span>
-                <span class="badge rounded-pill bg-primary">javascript</span>
+              <div>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-unstyled"> <span class="badge rounded-pill bg-primary">html</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">Ruby on rails</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">css</span></li>
+                  <li class="list-unstyled ms-2"><span class="badge rounded-pill bg-primary">javascript</span></li>
+                </ul>
               </div>
               <a href="#" class="btn btn-primary mt-3">See Project</a>
             </div>
@@ -155,6 +168,7 @@
       </div>
     </div>
 
+    <!--About-section-->
     <div class="container-fluid bg-white mt-5 pb-3">
       <div class="container-sm">
         <h1 class="card-title fs-1 fw-bolder pt-5">
@@ -181,10 +195,12 @@
         <a href="#" class="card-link text-decoration-none">
           <img src="images/Mail@2x.png" alt="email">
         </a>
-        <h3 class="card-title mt-5 fw-bold">
+        <div class="d-flex flex-row justify-content-between">
+          <h3 class="card-title mt-5 fw-bold">
           Languages
-          <img src="images/Union.png" alt="dropdown">
-        </h3>
+          </h3>
+          <div class="mt-5"><img src="images/Union.png" alt="dropdown"></div>
+        </div>
         <ul class="list-group">
           <li class="mb-3 p-2 bg-light rounded-2 list-unstyled">
             <img src="Resources/Icons/Languages/js.svg" alt="js">&nbsp Javascript
@@ -196,37 +212,42 @@
             <img src="Resources/Icons/Languages/css.svg" alt="CSS">&nbsp CSS
           </li>
         </ul>
-        <h3 class="card-title mt-5 fw-bold">
+        <div class="d-flex flex-row justify-content-between">
+          <h3 class="card-title mt-5 fw-bold">
           Frameworks
-          <img src="images/Disabled.png" alt="dropdown">
-        </h3>
+          </h3>
+          <div class="mt-5"><img src="images/Disabled.png" alt="dropdown"></div>
+        </div>
         <hr>
-        <h3 class="card-title mt-5 fw-bold">
+         <div class="d-flex flex-row justify-content-between">
+          <h3 class="card-title mt-5 fw-bold">
           Skills
-          <img src="images/Disabled.png" alt="dropdown">
-        </h3>
+          </h3>
+          <div class="mt-5"><img src="images/Disabled.png" alt="dropdown"></div>
+        </div>
         <hr>
       </div> 
     </div>  
 
-    <footer class="container-fluid bg-white pb-5">
-      <div class="container-sm d-flex flex-column align-items-sm-center">
-        <h2 class="card-title fs-1 fw-bolder pt-5 text-center">Contact Me</h2>
-        <p class="card-text text-secondary fs-5 me-5 me-lg-5 text-center">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
+    <!--Contact-section-->
+    <footer class="container-fluid pb-5 pt-5 bg-primary ">
+      <div class="container-sm d-flex flex-column align-items-sm-center ">
+        <h2 class="card-title fs-1 fw-bolder pt-5 text-center text-white">Contact Me</h2>
+        <p class="card-text text-secondary fs-5 me-5 me-lg-5 text-center text-white">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
         <form class="mw-100">
           <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
+            <label for="name" class="form-label text-white">Name</label>
             <input type="name" class="form-control" id="name">
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <label for="exampleInputEmail1" class="form-label text-white">Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
+            <label for="message" class="form-label text-white">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn bg-white text-primary fw-bold">Submit</button>
         </form>
       </div>
     </footer>
